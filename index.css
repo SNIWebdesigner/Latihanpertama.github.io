@@ -174,8 +174,8 @@ section>.kotak {
 
 .container>.kotak-project {
     display: inline-block;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .kotak-project>h3 {
