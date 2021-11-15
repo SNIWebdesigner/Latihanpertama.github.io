@@ -174,8 +174,8 @@ section>.kotak {
 
 .container>.kotak-project {
     display: inline-block;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .kotak-project>h3 {
@@ -342,11 +342,14 @@ section>.kotak {
         display: flex;
         justify-content: center;
     }
+    .container>.kotak-project {
+        margin: 0px 5px 0px 5px;
+    }
     .kotak-project>h3 {
         font-size: 28px;
     }
     .kotak-project>center>img {
-        width: 120px;
+        width: 110px;
     }
     .project>center>button {
         font-size: 18px;
