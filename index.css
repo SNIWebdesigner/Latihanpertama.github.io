@@ -16,10 +16,6 @@ body {
     scroll-behavior: smooth;
 }
 
-:root {
-    font-size: 16px;
-}
-
 
 /* bagian header */
 
@@ -251,6 +247,7 @@ body {
 .pesan {
     height: 25rem;
     background-color: rgb(202, 202, 202);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -386,7 +383,7 @@ body {
     .button-center>button {
         width: 25vw;
     }
-    /* Bagian 3  */
+    /* Bagian 4  */
     .pesan-center>h2 {
         font-size: 5rem;
     }
