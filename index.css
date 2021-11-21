@@ -13,6 +13,11 @@
 
 body {
     user-select: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    font-size: 16px;
 }
 
 
@@ -72,6 +77,7 @@ body {
 .method {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 2rem;
 }
 
@@ -84,7 +90,8 @@ body {
 .method>a svg {
     position: relative;
     width: 2.3rem;
-    margin: 0.7rem 0.7rem 0rem 1rem;
+    margin: auto;
+    margin-left: 1rem;
     color: black;
 }
 
@@ -169,8 +176,8 @@ body {
     background-image: url(img/futuristic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 3.1rem;
     display: flex;
+    padding: 2rem 0rem 2rem 0rem;
 }
 
 .center-project {
@@ -181,7 +188,7 @@ body {
     color: white;
     font-size: 4.4rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     text-shadow: 0px 15px 10px black;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -190,7 +197,6 @@ body {
     display: flex;
     justify-content: center;
     color: white;
-    padding: 3.1rem;
 }
 
 .container>.kotak-project {
@@ -222,6 +228,7 @@ body {
     width: 11vw;
     border-radius: 50px;
     border: 2px solid white;
+    margin-top: 2rem;
 }
 
 .container>.kotak-project:hover {
@@ -297,7 +304,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-#footer-kolom>ul a {
+.footer-kolom>ul a {
     color: white;
     line-height: 2rem;
     text-align: left;
@@ -305,20 +312,90 @@ body {
     font-size: 1.2rem;
 }
 
-#footer-kolom>ul {
+.footer-kolom>ul {
     text-align: left;
     padding: 0;
 }
 
-#footer-kolom>h4 {
+.footer-kolom>h4 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 2rem;
     text-align: center;
 }
 
-#footer-kolom>ul a:hover {
+.footer-kolom>ul a:hover {
     text-shadow: 0px 0px 10px whitesmoke;
 }
 
 
 /* responsive */
+
+@media screen and (min-width:999px) and (max-width:1200px) {}
+
+@media screen and (min-width:769px) and (max-width:998px) {}
+
+@media screen and (min-width:577px) and (max-width:768px) {}
+
+@media screen and (min-width:0px) and (max-width:576px) {
+    .header>img {
+        display: none;
+    }
+    .header>h1 {
+        font-size: 3rem;
+    }
+    .button>button {
+        width: 25vw;
+    }
+    .method {
+        margin: 1rem 0rem 2rem 0rem;
+    }
+    .method>h3 {
+        font-size: 2rem;
+    }
+    .method>a svg {
+        width: 1.7rem;
+    }
+    /* Bagian 2  */
+    .bagian-2 {
+        height: max-content;
+        padding-bottom: 2rem;
+    }
+    .bagian-2>h2 {
+        font-size: 3rem;
+    }
+    .kotak-center {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    /* Bagian 3 */
+    .project {
+        background-size: cover;
+    }
+    .center-project>h2 {
+        font-size: 3.5rem;
+    }
+    .container {
+        margin: auto;
+    }
+    .kotak-project>h3 {
+        font-size: 2rem;
+    }
+    .kotak-project>img {
+        width: 25vmin;
+    }
+    .button-center>button {
+        width: 25vw;
+    }
+    /* Bagian 3  */
+    .pesan-center>h2 {
+        font-size: 5rem;
+    }
+    /* Bagian Footer */
+    .footer {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .footer-kolom {
+        margin-left: 1.5rem;
+    }
+}
