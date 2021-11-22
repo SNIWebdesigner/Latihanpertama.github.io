@@ -372,19 +372,22 @@ body {
         display: none;
     }
     .header>h1 {
-        font-size: 3rem;
+        font-size: 10vmin;
+    }
+    .header>p {
+        font-size: 4vmin;
     }
     .button>button {
-        width: 25vw;
+        width: 25vmin;
     }
     .method {
         margin: 1rem 0rem 2rem 0rem;
     }
     .method>h3 {
-        font-size: 2rem;
+        font-size: 6vmin;
     }
     .method>a svg {
-        width: 1.7rem;
+        width: 5vmin;
     }
     /* Bagian 2  */
     .bagian-2 {
@@ -392,34 +395,40 @@ body {
         padding-bottom: 2rem;
     }
     .bagian-2>h2 {
-        font-size: 3rem;
+        font-size: 8vmax;
     }
     .kotak-center {
         display: inline-flex;
         flex-wrap: wrap;
+    }
+    .kotak>p {
+        font-size: 3vmin;
     }
     /* Bagian 3 */
     .project {
         background-size: cover;
     }
     .center-project>h2 {
-        font-size: 3.5rem;
+        font-size: 9vmin;
     }
     .container {
         margin: auto;
     }
     .kotak-project>h3 {
-        font-size: 2rem;
+        font-size: 4.5vmax;
     }
     .kotak-project>img {
-        width: 25vmin;
+        width: 23vmax;
     }
     .button-center>button {
-        width: 25vw;
+        width: 25vmin;
     }
     /* Bagian 4  */
     .pesan-center>h2 {
-        font-size: 5rem;
+        font-size: 15vmin;
+    }
+    .center>a svg {
+        width: 3vmin;
     }
     /* Bagian Footer */
     .footer {
