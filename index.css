@@ -365,7 +365,54 @@ body {
 
 @media screen and (min-width:769px) and (max-width:998px) {}
 
-@media screen and (min-width:577px) and (max-width:768px) {}
+@media screen and (min-width:577px) and (max-width:768px) {
+    .header {
+        padding-bottom: 2rem;
+    }
+    .header>img {
+        display: none;
+    }
+    .header>h1 {
+        font-size: 7vmax;
+    }
+    .header>p {
+        font-size: 4vmax;
+    }
+    .button>button {
+        font-size: 3.5vmax;
+        width: 25vmax;
+    }
+    .bagian-2 {
+        height: max-content;
+        padding: 2rem;
+    }
+    .bagian-2>h2 {
+        font-size: 9vmax;
+    }
+    .kotak-center {
+        flex-wrap: wrap;
+    }
+    .center-project>h2 {
+        font-size: 8vmax;
+    }
+    .kotak-project>h3 {
+        font-size: 4.2vmax;
+    }
+    .kotak-project>img {
+        width: 25vmax;
+    }
+    .button-center>button {
+        font-size: 3vmax;
+        width: 22vmax;
+    }
+    .footer {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .footer>.footer-kolom {
+        margin: 0rem 2rem 0rem 2rem;
+    }
+}
 
 @media screen and (min-width:0px) and (max-width:576px) {
     .header>img {
@@ -375,19 +422,20 @@ body {
         font-size: 10vmin;
     }
     .header>p {
-        font-size: 4vmin;
+        font-size: 3.8vmax;
     }
     .button>button {
+        font-size: 3.5vmax;
         width: 25vmin;
     }
     .method {
         margin: 1rem 0rem 2rem 0rem;
     }
     .method>h3 {
-        font-size: 6vmin;
+        font-size: 6vmax;
     }
     .method>a svg {
-        width: 5vmin;
+        width: 5vmax;
     }
     /* Bagian 2  */
     .bagian-2 {
@@ -429,6 +477,7 @@ body {
         width: 30vmax;
     }
     .button-center>button {
+        font-size: 3.8vmax;
         width: 25vmin;
     }
     /* Bagian 4  */
