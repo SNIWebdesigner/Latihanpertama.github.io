@@ -419,20 +419,20 @@ body {
         display: none;
     }
     .header>h1 {
-        font-size: 10vmin;
+        font-size: 12vmin;
     }
     .header>p {
         font-size: 3.8vmax;
     }
     .button>button {
-        font-size: 3.5vmax;
+        font-size: 3.8vmin;
         width: 25vmin;
     }
     .method {
         margin: 1rem 0rem 2rem 0rem;
     }
     .method>h3 {
-        font-size: 6vmax;
+        font-size: 6vmin;
     }
     .method>a svg {
         width: 5vmax;
@@ -451,9 +451,14 @@ body {
     }
     .kotak {
         border-bottom: 2px solid black;
+        margin-bottom: 1rem;
+    }
+    .kotak>h5,
+    .kotak>a {
+        font-size: 7vmin;
     }
     .kotak>p {
-        font-size: 3vmax;
+        font-size: 4vmin;
     }
     /* Bagian 3 */
     .project {
@@ -471,13 +476,13 @@ body {
         text-align: center;
     }
     .kotak-project>h3 {
-        font-size: 7vmax;
+        font-size: 7vmin;
     }
     .kotak-project>img {
-        width: 30vmax;
+        width: 35vmin;
     }
     .button-center>button {
-        font-size: 3.8vmax;
+        font-size: 3.8vmin;
         width: 25vmin;
     }
     /* Bagian 4  */
@@ -492,7 +497,18 @@ body {
         flex-wrap: wrap;
         justify-content: flex-start;
     }
+    .logo-footer>h6,
+    .logo-footer>CopyRight-,
+    .logo-footer>svg {
+        font-size: 5vmin;
+    }
     .footer-kolom {
         margin-left: 1.5rem;
+    }
+    .footer-kolom>h4 {
+        font-size: 5vmin;
+    }
+    .footer-kolom>ul>a {
+        font-size: 3.5vmin;
     }
 }
