@@ -401,8 +401,11 @@ body {
         display: inline-flex;
         flex-wrap: wrap;
     }
+    .kotak {
+        border-bottom: 2px solid black;
+    }
     .kotak>p {
-        font-size: 3vmin;
+        font-size: 3vmax;
     }
     /* Bagian 3 */
     .project {
