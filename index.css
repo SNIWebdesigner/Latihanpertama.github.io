@@ -413,12 +413,17 @@ body {
     }
     .container {
         margin: auto;
+        display: block;
+    }
+    .kotak-project {
+        padding: 0rem 0rem 3rem 0rem;
+        text-align: center;
     }
     .kotak-project>h3 {
-        font-size: 4.5vmax;
+        font-size: 7vmax;
     }
     .kotak-project>img {
-        width: 23vmax;
+        width: 30vmax;
     }
     .button-center>button {
         width: 25vmin;
@@ -427,8 +432,8 @@ body {
     .pesan-center>h2 {
         font-size: 15vmin;
     }
-    .center>a svg {
-        width: 3vmin;
+    .center>a .bi {
+        width: 7vmin;
     }
     /* Bagian Footer */
     .footer {
